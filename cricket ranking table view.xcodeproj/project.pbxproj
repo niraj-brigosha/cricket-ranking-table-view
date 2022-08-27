@@ -13,6 +13,8 @@
 		D8BE6FE728B60986000A2CF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8BE6FE528B60986000A2CF7 /* Main.storyboard */; };
 		D8BE6FE928B60988000A2CF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8BE6FE828B60988000A2CF7 /* Assets.xcassets */; };
 		D8BE6FEC28B60988000A2CF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8BE6FEA28B60988000A2CF7 /* LaunchScreen.storyboard */; };
+		D8BE6FF428B60F53000A2CF7 /* PlayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BE6FF328B60F53000A2CF7 /* PlayerData.swift */; };
+		D8BE6FF628B612C9000A2CF7 /* CricketerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BE6FF528B612C9000A2CF7 /* CricketerTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D8BE6FE828B60988000A2CF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8BE6FEB28B60988000A2CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8BE6FED28B60988000A2CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8BE6FF328B60F53000A2CF7 /* PlayerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerData.swift; sourceTree = "<group>"; };
+		D8BE6FF528B612C9000A2CF7 /* CricketerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricketerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				D8BE6FDF28B60986000A2CF7 /* AppDelegate.swift */,
 				D8BE6FE128B60986000A2CF7 /* SceneDelegate.swift */,
 				D8BE6FE328B60986000A2CF7 /* ViewController.swift */,
+				D8BE6FF528B612C9000A2CF7 /* CricketerTableViewCell.swift */,
 				D8BE6FE528B60986000A2CF7 /* Main.storyboard */,
+				D8BE6FF328B60F53000A2CF7 /* PlayerData.swift */,
 				D8BE6FE828B60988000A2CF7 /* Assets.xcassets */,
 				D8BE6FEA28B60988000A2CF7 /* LaunchScreen.storyboard */,
 				D8BE6FED28B60988000A2CF7 /* Info.plist */,
@@ -140,7 +146,9 @@
 			files = (
 				D8BE6FE428B60986000A2CF7 /* ViewController.swift in Sources */,
 				D8BE6FE028B60986000A2CF7 /* AppDelegate.swift in Sources */,
+				D8BE6FF428B60F53000A2CF7 /* PlayerData.swift in Sources */,
 				D8BE6FE228B60986000A2CF7 /* SceneDelegate.swift in Sources */,
+				D8BE6FF628B612C9000A2CF7 /* CricketerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,3 +6,19 @@
 //
 
 import Foundation
+
+class PlayerData {
+    var playerName: String
+    var countryName: String
+    var rating: Int32
+    var playerPhoto: String
+    
+    init(pName: String, cntName: String, rPlayer: Int32, photoPlayer: String){
+        
+        playerName = pName
+        countryName = cntName
+        rating = rPlayer
+        playerPhoto = photoPlayer
+        
+    }
+}

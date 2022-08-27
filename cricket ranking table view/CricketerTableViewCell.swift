@@ -9,6 +9,19 @@ import UIKit
 
 class CricketerTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var playerrank: UILabel!
+    
+    @IBOutlet weak var playerImage: UIImageView!
+    
+    @IBOutlet weak var playerName: UILabel!
+    
+    @IBOutlet weak var playerCountry: UILabel!
+    
+    @IBOutlet weak var playerRating: UILabel!
+    
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
